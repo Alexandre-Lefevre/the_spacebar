@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block body %}
+<h1>{{ title }}</h1>
+<div>
+    <p>
+        Sailors whine with fortune!Est raptus fiscina, cesaris.Triple sec soup is just not the same without woodruff and rich large herrings.Domuss sunt armariums de ferox diatria.Heuretess nocere in tornacum!Sunt barcases examinare nobilis, neuter voxes.A falsis, candidatus talis eleates.
+    </p>
+    <p>
+        Sailors whine with fortune!Est raptus fiscina, cesaris.Triple sec soup is just not the same without woodruff and rich large herrings.Domuss sunt armariums de ferox diatria.Heuretess nocere in tornacum!Sunt barcases examinare nobilis, neuter voxes.A falsis, candidatus talis eleates.
+    </p>
+    <p>
+        Sailors whine with fortune!Est raptus fiscina, cesaris.Triple sec soup is just not the same without woodruff and rich large herrings.Domuss sunt armariums de ferox diatria.Heuretess nocere in tornacum!Sunt barcases examinare nobilis, neuter voxes.A falsis, candidatus talis eleates.
+    </p>
+    <p>
+        Sailors whine with fortune!Est raptus fiscina, cesaris.Triple sec soup is just not the same without woodruff and rich large herrings.Domuss sunt armariums de ferox diatria.Heuretess nocere in tornacum!Sunt barcases examinare nobilis, neuter voxes.A falsis, candidatus talis eleates.
+    </p>
+
+    <h2>Comments ({{ comments | length }})
+    </h2>
+        <ul>
+            {% for comment in comments  %}
+
+                <li>{{ comment }} </li>
+
+            {% endfor %}
+        </ul>
+
+</div>
+
+{% endblock %}
