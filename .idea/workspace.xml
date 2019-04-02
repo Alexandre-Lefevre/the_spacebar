@@ -162,12 +162,20 @@
       <option name="presentableId" value="Default" />
       <updated>1554195105343</updated>
       <workItem from="1554195106541" duration="1432000" />
-      <workItem from="1554196551471" duration="1990000" />
+      <workItem from="1554196551471" duration="2765000" />
     </task>
+    <task id="LOCAL-00001" summary="premier commit symfony">
+      <created>1554198646908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554198646908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3422000" />
+    <option name="totallyTimeSpent" value="4197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -195,6 +203,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="premier commit symfony" />
+    <option name="LAST_COMMIT_MESSAGE" value="premier commit symfony" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/index.php">
